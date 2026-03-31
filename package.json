@@ -1,0 +1,26 @@
+{
+  "name": "next-level-typescript",
+  "version": "1.0.0",
+  "description": "A TypeScript project exploring generics and OOP concepts",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "typescript",
+    "generics",
+    "oop"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.14.0"
+  }
+}
